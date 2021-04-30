@@ -8,7 +8,6 @@
 // Get params from url
 $url =	$_GET['url'];
 $apiKey = $_GET['apiKey'];
-//AIzaSyAyW-Bga5DWZSwFRqyoYEznaUjQHldAG8k
 
 //result as an array
 $result = json_decode(isMobileFriendly($url, $apiKey), true);
